@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regular Expression</title>
+<script>
+    var show=()=>{
+
+        // let temp=document.getElementById("n").value   // 0-9
+        // let store=new RegExp("[0-9]",'g')
+        // console.log(store.test(temp))
+
+        var d=document.getElementById("c").ariaValueMax
+        var t=new RegExp("[a-z]","g")
+        console.log(t.test(d))
+    }
+
+
+</script>
+
+</head>
+<body>
+    
+    <input type="text" id="n" placeholder="enter here num"/>
+    <button onclick="show()">display</button>
+    <input type="text" id="c" placeholder="enter here text"/>
+
+</body>
+</html>

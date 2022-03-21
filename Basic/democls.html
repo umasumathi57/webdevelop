@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic</title>
+    <link rel="icon" href="../Images/butterfly.jpg"/>
+    <link rel="stylesheet" href="./stylecss.css"/>
+    <style>
+        
+        body{
+
+            background-color: pink;
+            /* background-image: url(../Images/butterfly.jpg); */
+            background-image: url("../Images/rose.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size:cover ;
+
+        }
+        table
+        {
+            align: center;
+            box-shadow: 10px;
+            margin-left: 25%;
+            border: 20px;
+            border-top-style: groove;
+            border-bottom-style: groove ;
+
+        }
+        td{
+            color: violet;
+        }
+        th{
+            color: brown;
+        }
+        .bg
+        {
+            background-position: cover;
+            background-image: url(../Images/butterfly.jpg);
+        }
+
+    </style>
+</head>
+<body>
+     <div align="center" class="bg" > 
+    <div>
+        <h3>Form</h3>
+
+        <label>Fisrtname:</label>
+        <input type="text" name="fname" id="fname" placeholder="enter firstname">
+    </div>
+    <div>
+        <label>mob no</label>
+        <input type="number" name="mbl" id="mbl" placeholder="enter mblno">
+    </div>
+    <div>
+        <label>address</label>
+        <textarea name="add" placeholder="enteradd" id="add" value=""></textarea>
+    </div>
+    <div>
+        <label class="uma">course</label>
+        <select>
+            <option id="choice">java</option>
+            <option>phyton</option>
+        </select>
+    </div>   
+    <div>
+        <label >gender</label>
+        <input type="radio">female
+        
+        <input type="radio"> male
+    </div>
+    <div>
+        <label>type</label>
+        <input type="checkbox">fulltime
+        <input type="checkbox">partime
+    </div>
+
+    <div>
+        <button id="hey">submit</button>
+    </div>
+</div> 
+
+
+ <!-- <img src="../Images/rose.jpg">
+        <label>DOB</label>
+        <input type="date" name="d" id="id">
+    </div>
+    <a href="http://facebook.com" target="_blank">facebook</a>
+    <a href="../Images/butterfly.jpg" target="_blank">hlo</a>
+    </div>
+        
+    
+       -->
+   
+
+    <table border="10px" cellspacing="10px" cellpadding="15px">
+        <thead>
+            <tr>
+                <th>serial no
+                </th>
+                <th>Name</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>uma</td>
+            </tr>
+        </thead>
+        <tbody contenteditable="true">
+            <tr>
+                <td>001</td>
+                <td>Manojkumar</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

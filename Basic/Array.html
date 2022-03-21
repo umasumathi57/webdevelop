@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/Web development/arr.js"></link>
+    <title>Arrays</title>
+    
+    <script>
+
+        let arr=[]
+        let arr1=new Array()
+
+        //_________ PUSH functin _______________
+
+        arr.push("Sriuma")
+        arr.push(100)
+        arr.push("java")
+
+        arr1.push(99)
+        arr1.push("javascript")
+
+
+       // alert(arr.length)
+
+        
+        // for(index=0;index<arr.length;i++)
+        // {
+        //     alert(arr[index])
+        // }
+
+        // function map(data,pos)
+        // {
+        //     alert(arr)
+        // }
+
+        // function fn(data,index)  
+        //  {
+        //      alert(data)
+        // }
+        // arr.map(fn)
+
+        //-----POP functions------
+
+
+    //     alert(arr1.length)
+    //    alert(arr1)   
+
+    //    arr1.pop()
+    //    alert(arr1) 
+
+
+    //=======fat array function
+
+    // var user=prompt("Tell us position to delete: ","")
+    //     hello=hello.filter((v,i)=>{
+    //         return v!==hello[user]
+    //     })
+        ...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+    //     alert("After deletion")
+    //     hello.map((data)=>{alert(data)})
+
+          
+         //arr.map((val)=>{alert(val)})
+    
+            let temp=prompt("Enter the indexno")
+            arr1=arr1.filter((d,i)=> { return d!==arr1[temp] })
+
+            arr1.map((data)=>   
+             alert(data)   
+            }
+
+            </script>
+
+
+<noscript>
+    alert("browser not hava js")
+    </noscript>
+
+</head>
+<body>
+    <h1>HTML</h1>
+    <p>HTML (HyperText Markup Language) is the most basic building block of the Web.<br> It defines the meaning and structure of web content.<br> "Hypertext" refers to links that connect web pages to one another, either within a single website or between websites. Links are a fundamental aspect of the Web</p>
+    <hr color="pink">
+    <div>
+    <ol type="1">
+        <h4 onclick="map()">Web designs</h4>  
+        <li>Html</li>
+        <li>Css</li>
+        <li>Boostrap</li>
+    </ol>
+    <ul>
+        <h5>Script lang</h5>
+        <li>Angular</li>
+        <li>React</li>
+    </ul>
+    </div>
+     
+    
+   </p>
+</body>
+</html>

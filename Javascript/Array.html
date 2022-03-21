@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+
+<script>
+
+    let arr=[]
+
+    arr.push("sriuma")
+    arr.push("manoj")
+    arr.push("aarthi")
+    arr.push("annakili")
+
+    // alert(arr)
+
+    arr.pop()
+    alert(arr)
+
+    var temp=prompt("tell us the position to be delete")
+    arr=arr.filter((data,pos)=>
+    {
+        return data!==arr[temp]
+    }
+    )
+    document.write(arr)
+    
+
+</script>    
+</body>
+</html>

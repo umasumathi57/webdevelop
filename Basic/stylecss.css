@@ -1,0 +1,29 @@
+/* img
+{
+    height: 400px;
+    width: 200px;
+
+    border-radius: 50px;
+    box-shadow: 40px 10px 10px; 
+}*/
+.uma
+{
+
+    font-color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    border-radius: 10px;
+    border-style: dashed;
+            
+}
+#choice
+{
+
+    
+margin: 10px 10px 10px 10px;
+
+}
+#hey
+{
+    background-color: aqua;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation Task</title>
+    <script src="/Web development/RegExp/valiTask.js"></script>
+<style>
+    body{
+        background-color: skyblue;
+    }
+    span
+    {
+        color: rgb(255, 38, 0);
+    }
+
+    </style>  
+</head>
+<body>
+    <div align="center">
+        <h3 style=" color: rgb(172, 9, 187);">BASIC FORM</h3>
+    </div>
+    <form name="sky" onsubmit="return scan()" action="#">
+        <table align="center">
+            <tbody>
+                <tr>
+                    <td><p>USERNAME<span id="uer"></span></p></td>
+                    <td><input type="text" name="uname" placeholder="Enter username"/></td>
+                   
+                </tr>
+                <tr>
+                    <td><p>PASSWORD<span id="per"></span></p></td>
+                    <td><input type="text" name="pass" placeholder="Enter password "/></td>
+                </tr>
+                
+                <tr>
+                        <td><p><label for="=lang">Preferred Language</label><span id="pler"></span></p></td>
+                        
+                        <td>
+                            
+                            <select name="Preferred Language" id="lang">
+                                <option disabled selected hidden>Select the Language</option>
+                                <option>English</option>
+                                <option>Tamil</option>
+                                <option>Telugu</option>
+                                <option>none</option>
+
+                            </select>   
+                        </td>
+        
+                </tr>
+
+                <tr>
+                    <td><p><label for="=sques">Security Question</label><span id="sqer"></span></p></td>
+                    
+                    <td>
+                        
+                        <select name="Security question" id="sques">
+                            <option disabled selected hidden>Select the questions</option>
+                            <option>What is your nick name!</option>
+                            <option>What is your b'day month</option>
+                            <option>None</option>
+
+                        </select>   
+                    </td>
+    
+            </tr>
+                    
+                
+                <tr>
+                    <td><p>Security Answer<span id="sans"></span></p></span></td>
+                    <td><input type="text" name="sans" placeholder="Enter answer"/></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td><input style="color: green;" type="submit" value="submit"/></td>
+                    <td><input style="color: red;" type="reset" value="cancel"/></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</div>
+
+</body>
+</html>

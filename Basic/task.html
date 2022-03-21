@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/Web development/task.js"></link>
+    <h1 >Array List</h1>
+    <title>Task</title>
+    
+    <script >
+
+let  arr=[1.2,2.3,3.4,4.3,4.5,5.6]
+
+    
+   
+
+    // add fn
+
+    var Add=()=>{
+    var temp=document.getElementById("scan")
+    arr.push(temp.value)
+    alert("Added")
+        alert(arr)
+
+}
+
+// delete function
+
+let remv=()=>
+{
+    var temp=prompt("Tell us index to be delete")
+    arr=arr.filter((d,i)=>{
+        return d!==arr[temp]
+    })
+    
+    alert("After deletion")
+    arr.map((data)=>{alert(data)})
+   
+}
+
+// range
+
+let range=()=>
+{
+   arr.map((data)=>{
+       if(data<=5.5)
+           document.write("<p>"+data+"<p>")
+       })
+    }
+
+// grp delete
+
+let grp=()=>
+{
+    
+    let temp=prompt("enter the pos's to be delete")
+    //let temp1=prompt("enter the pos's to be delete")
+    arr=arr.filter((d,i)=>
+{
+    return d!==arr[temp]
+   // return d!==arr[temp1]
+    arr.map((data)=>{alert(data)})
+
+
+})
+    
+}
+    
+     
+
+    
+
+
+    </script>
+</head>
+<body>
+    <div>
+    <input type="text" id="scan"> 
+    <button onclick="Add()">Add</button>
+      
+    <button onclick="remv()">Delete</button>
+    <button onclick="range()">Range</button>
+    <button onclick="grp()">POS Del</button>
+
+    <div id="preview">
+
+
+</div>
+</body>
+</html>
